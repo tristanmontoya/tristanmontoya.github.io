@@ -1,2 +1,2 @@
 # tristanmontoya.github.io
-Personal Wensite
+Personal Website
