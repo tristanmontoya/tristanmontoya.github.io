@@ -11,11 +11,7 @@ institute_logo: institute.png
 institute_url: https://utias.utoronto.ca
 
 # Build settings
-markdown: kramdown
 theme: minima
-exclude:
-  - Gemfile
-  - Gemfile.lock
  
 collections:
   papers:
