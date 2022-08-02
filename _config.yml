@@ -1,8 +1,8 @@
 title: Tristan Montoya
 email: tristan.montoya.mail.utoronto.ca
-description: Tristan Montoya, PhD Candidate at the University of Toronto
+#description: Tristan Montoya, PhD Candidate at the University of Toronto
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://tjbmontoya.com/"
+url: "https://tjbmontoya.com/"
 twitter_username: tjbmontoya
 github_username: tristanmontoya
 profile_picture: profile.png
@@ -12,7 +12,7 @@ institute_url: https://utias.utoronto.ca
 
 # Build settings
 markdown: kramdown
-theme: academic-minima
+theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
