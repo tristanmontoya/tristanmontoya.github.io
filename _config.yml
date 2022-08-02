@@ -17,3 +17,6 @@ collections:
   papers:
     output: true
     permalink: /:collection/:name
+  conferences:
+    output: true
+    permalink: /:collection/:name

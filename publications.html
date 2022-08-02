@@ -16,5 +16,17 @@ title: Publications
   </div>
 </div>
 {% endfor %}
+<br>
+<h1 class="mt-4">Conference Papers</h1>
+{% assign conferences = site.conferences | sort: "year" | reverse %}
+{% for pub in conferences %}
+<div class="pubitem">
+  <div class="pubtitle"><b>{{ pub.title }}</b></div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  <div class="publinks">
+  </div>
+</div>
+{% endfor %}
 
 
