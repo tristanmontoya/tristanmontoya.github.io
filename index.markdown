@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Tristan Montoya is a PhD candidate at the University of Toronto Institute for Aerospace Studies (UTIAS). His research is aimed at the development and analysis of numerical methods for partial differential equations with applications in engineering as well as the natural and social sciences.
