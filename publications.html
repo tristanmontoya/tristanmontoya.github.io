@@ -10,7 +10,7 @@ title: Publications
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
   <div class="publinks">
-  <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a
+  <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
   >&nbsp;&nbsp;
   <a href="{{pub.doi}}"><i class="fas fa-link"></i>doi</a>
   </div>
@@ -21,11 +21,11 @@ title: Publications
 {% assign conferences = site.conferences | sort: "year" | reverse %}
 {% for pub in conferences %}
 <div class="pubitem">
-  <div class="pubtitle"><b>{{ pub.title }}</b></div>
+  <div class="pubtitle"><b>{{ pub.title }}</b> ({{ pub.annotation }}) </div> 
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
   <div class="publinks">
-  <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i> PDF</a
+  <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
   >
   </div>
 </div>
