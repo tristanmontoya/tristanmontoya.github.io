@@ -12,8 +12,10 @@ title: Publications
   <div class="publinks">
   <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
   >&nbsp;&nbsp;
-  <a href="{{pub.doi}}"><i class="fas fa-link"></i>doi</a>
+  <a href="{{pub.doi}}"><i class="fas fa-link"></i>doi</a>&nbsp;&nbsp;
+  <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
   </div>
+  
 </div>
 {% endfor %}
 <br>
@@ -26,7 +28,8 @@ title: Publications
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
   <div class="publinks">
   <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
-  >
+  >&nbsp;&nbsp;
+  <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
   </div>
 </div>
 {% endfor %}
