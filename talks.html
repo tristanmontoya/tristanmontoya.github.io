@@ -2,11 +2,12 @@
 layout: page
 title: Talks
 ---
-{% assign talks = site.talks | sort: "year" | reverse %}
+{% assign talks = site.talks | sort: "list_order" | reverse %}
 {% for pub in talks %}
 <div class="pubitem">
   <div class="pubtitle"><b>{{ pub.title }}</b></div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  {{ pub.link }}
 </div><br>
 {% endfor %}

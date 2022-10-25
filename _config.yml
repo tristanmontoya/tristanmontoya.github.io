@@ -1,6 +1,6 @@
 title: Tristan Montoya
 email: tristan.montoya@mail.utoronto.ca
-#description: Tristan Montoya, PhD Candidate at the University of Toronto
+description: Tristan Montoya, PhD Candidate at the University of Toronto
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tjbmontoya.com/"
 twitter_username: tjbmontoya
@@ -25,3 +25,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:name
+
+social_links:
+  github: tristanmontoya
