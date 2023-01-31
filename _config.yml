@@ -14,7 +14,7 @@ institute_url: https://utias.utoronto.ca
 theme: minima
 plugins:
   - jekyll-seo-tag
- 
+
 collections:
   papers:
     output: true
