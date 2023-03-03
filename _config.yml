@@ -25,6 +25,3 @@ collections:
   talks:
     output: true
     permalink: /:collection/:name
-
-social_links:
-  github: tristanmontoya
