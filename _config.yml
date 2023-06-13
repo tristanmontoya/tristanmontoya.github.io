@@ -22,6 +22,9 @@ collections:
   conferences:
     output: true
     permalink: /:collection/:name
+  preprints:
+    output: true
+    permalink: /:collection/:name
   talks:
     output: true
     permalink: /:collection/:name
