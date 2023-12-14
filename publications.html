@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 <h1 class="mt-4">Submitted Preprints</h1>
-{% assign preprints = site.preprints | sort: "year" | reverse %}
+{% assign preprints = site.preprints | sort: "year" %}
 {% for pub in preprints %}
 <div class="pubitem">
   <div class="pubtitle"><b>{{ pub.title }}</b></div>
@@ -13,11 +13,9 @@ title: Publications
   <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
   >&nbsp;&nbsp;
   <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
-  </div>
-  
-</div>
+  </div>  
+</div><br>
 {% endfor %}
-<br>
 
 <h1 class="mt-4">Journal Articles</h1>
 {% assign papers = site.papers | sort: "year" | reverse %}
@@ -32,9 +30,8 @@ title: Publications
   <a href="{{pub.doi}}"><i class="fas fa-link"></i>doi</a>&nbsp;&nbsp;
   <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
   </div>
-</div>
+</div><br>
 {% endfor %}
-<br>
 
 <h1 class="mt-4">Conference Proceedings</h1>
 {% assign conferences = site.conferences | sort: "year" | reverse %}
@@ -48,7 +45,7 @@ title: Publications
   >&nbsp;&nbsp;
   <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
   </div>
-</div>
+</div><br>
 {% endfor %}
 
 
