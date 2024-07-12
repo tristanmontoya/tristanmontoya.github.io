@@ -4,6 +4,6 @@ title: Efficient and Robust Spectral-Element Methods on Triangles Using Tensor-P
 authors: Tristan Montoya and David W. Zingg
 publication: NASA Advanced Modeling and Simulation (AMS) Seminar Series
 year: 2022
-link: <a href="https://www.nas.nasa.gov/pubs/ams/2022/10-20-22.html"><i class="fas fa-link"></i>abstract</a>&nbsp;&nbsp; <a href="/slides/MontoyaZinggAMS22.pdf"><i class="far fa-file-pdf"></i>slides</a>
+link: <a href="https://www.nas.nasa.gov/pubs/ams/2022/10-20-22.html"><i class="fas fa-link"></i>abstract</a>
 list_order: 3
 ---

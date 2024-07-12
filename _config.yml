@@ -1,14 +1,12 @@
 title: Tristan Montoya
-email: tristan.montoya@mail.utoronto.ca
-description: Tristan Montoya, PhD Candidate at the University of Toronto
+email: montoya.tristan@gmail.com
+description: Tristan Montoya, Computational Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tjbmontoya.com/"
 twitter_username: tjbmontoya
 github_username: tristanmontoya
 profile_picture: profile.png
-institute_name: University of Toronto Institute for Aerospace Studies
-institute_logo: institute.png
-institute_url: https://utias.utoronto.ca
+institute_url: https://www.mi.uni-koeln.de/NumSim/
 
 # Build settings
 theme: minima
