@@ -48,4 +48,19 @@ title: Publications
 </div><br>
 {% endfor %}
 
+<h1 class="mt-4">Thesis</h1>
+{% assign thesis = site.thesis | sort: "year" | reverse %}
+{% for pub in thesis %}
+<div class="pubitem">
+  <div class="pubtitle"><b>{{ pub.title }}</b> </div> 
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  <div class="publinks">
+  <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
+  >&nbsp;&nbsp;
+  <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
+  </div>
+</div><br>
+{% endfor %}
+
 

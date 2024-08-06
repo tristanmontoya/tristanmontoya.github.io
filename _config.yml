@@ -23,6 +23,9 @@ collections:
   preprints:
     output: true
     permalink: /:collection/:name
+  thesis:
+    output: true
+    permalink: /:collection/:name
   talks:
     output: true
     permalink: /:collection/:name
