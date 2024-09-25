@@ -4,8 +4,8 @@ title: CV
 group: navigation
 order: 3
 ---
-My CV is <a href="/docs/TMontoya_CV_20240923.pdf">available for download here</a>.
+My CV is <a href="/docs/TMontoya_CV_20240924.pdf">available for download here</a>.
 
 <script type="text/javascript">
- document.location = "docs/TMontoya_CV_20240923.pdf"
+ document.location = "docs/TMontoya_CV_20240924.pdf"
 </script>
