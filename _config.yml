@@ -1,11 +1,10 @@
-title: Tristan Montoya
-email: tmontoya@uni-koeln.de
+title: Tristan Montoya, PhD
+email: tristan.montoya@alumni.utoronto.ca
 description: Tristan Montoya, Computational Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tjbmontoya.com/"
-twitter_username: tjbmontoya
 github_username: tristanmontoya
-profile_picture: profile.png
+profile_picture: profile.jpeg
 institute_url: https://www.mi.uni-koeln.de/NumSim/
 
 # Build settings
