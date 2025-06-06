@@ -6,8 +6,7 @@ title: Selected Talks
 {% for pub in talks %}
 <div class="pubitem">
   <div class="pubtitle"><b>{{ pub.title }}</b></div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
+  <div class="pubinfo">{{ pub.publication }}, {{ pub.location}}, {{ pub.year}}</div>
   {{ pub.link }}
 </div><br>
 {% endfor %}
