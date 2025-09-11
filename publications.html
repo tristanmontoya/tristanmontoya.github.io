@@ -7,11 +7,13 @@ title: Publications
 {% for pub in preprints %}
 <div class="pubitem">
   <div class="pubtitle"><b>{{ pub.title }}</b></div>
-  <div class="pubauthors">{{ pub.authors }}, {{ pub.year}}</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
   <div class="publinks">
   <a href="/papers/{{ pub.slug}}.pdf"><i class="far fa-file-pdf"></i>pdf</a
-  >
-  </div>  
+  >&nbsp;&nbsp;
+  <a href="/cite/{{ pub.slug}}.bib"><i class="far fa-file-bib"></i>cite</a>
+  </div>
 </div><br>
 {% endfor %}
 <h1 class="mt-4">Journal Articles</h1>
