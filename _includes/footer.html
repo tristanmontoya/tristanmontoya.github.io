@@ -22,6 +22,9 @@
             {% endif %}
           {% endif %}
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.email_secondary %}
+          <li><a href="mailto:{{ site.email_secondary }}">{{ site.email_secondary }}</a></li>
+          {% endif %}
         </ul>
       </div>
 

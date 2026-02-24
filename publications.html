@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 ---
+<!--
 <h1 class="mt-4">Submitted Preprints</h1>
 {% assign preprints = site.preprints | sort: "year" %}
 {% for pub in preprints %}
@@ -16,8 +17,9 @@ title: Publications
   </div>
 </div><br>
 {% endfor %}
+-->
 <h1 class="mt-4">Journal Articles</h1>
-{% assign papers = site.papers | sort: "year" | reverse %}
+{% assign papers = site.papers | sort: "list_order" | reverse %}
 {% for pub in papers %}
 <div class="pubitem">
   <div class="pubtitle"><b>{{ pub.title }}</b></div>
@@ -61,5 +63,4 @@ title: Publications
   </div>
 </div><br>
 {% endfor %}
-
 

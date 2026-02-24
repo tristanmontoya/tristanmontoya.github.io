@@ -1,5 +1,6 @@
 title: Tristan Montoya, PhD
 email: tristan.montoya@alumni.utoronto.ca
+email_secondary: tristan.montoya@usask.ca
 description: Tristan Montoya, Computational Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tjbmontoya.com/"
@@ -8,7 +9,6 @@ profile_picture: profile.jpeg
 institute_url: https://www.mi.uni-koeln.de/NumSim/
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-seo-tag
 
