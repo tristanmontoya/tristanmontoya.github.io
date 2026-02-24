@@ -1,12 +1,9 @@
-@use "sass:math";
-@use "academic-minima/config" as *;
-
 /**
  * Syntax highlighting styles
  */
 .highlight {
     background: #fff;
-    margin-bottom: math.div($spacing-unit, 2);
+    @extend %vertical-rhythm;
 
     .highlighter-rouge & {
       background: #eef;

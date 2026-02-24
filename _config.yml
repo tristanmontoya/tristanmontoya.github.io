@@ -2,6 +2,7 @@ title: Tristan Montoya, PhD
 email: tristan.montoya@alumni.utoronto.ca
 email_secondary: tristan.montoya@usask.ca
 description: Tristan Montoya, Computational Scientist
+css_version: "20260224-1"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tjbmontoya.com/"
 github_username: tristanmontoya
