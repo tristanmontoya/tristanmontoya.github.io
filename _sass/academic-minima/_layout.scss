@@ -12,23 +12,31 @@
 
 .site-title {
     font-size: 26px;
-    font-weight: 300;
+    font-weight: $base-font-weight;
     margin: 8px 0;
     display: inline-block;
+    text-decoration: none;
+    border-bottom: none;
 
     &,
-    &:visited {
+    &:visited,
+    &:hover {
         color: $grey-color-dark;
+        text-decoration: none;
+        border-bottom: none;
     }
 }
 
 .site-nav {
     .menu-icon {
         display: none;
+        border-bottom: none;
     }
 
     .page-link {
         color: $text-color;
+        text-decoration: none;
+        border-bottom: none;
         line-height: $base-line-height;
         padding: 8px 0;
         display: inline-block;
@@ -114,6 +122,9 @@
         img {
             max-height: 100%;
         }
+        a {
+            border-bottom: none;
+        }
         @include media-query($on-palm) {
             display: none;
         }
@@ -198,49 +209,57 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 32px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
+    h1 {
+        font-size: 24px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
         }
     }
 
-    h4 {
+    h2 {
+        font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 20px;
+        }
+    }
+
+    h3 {
         font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
+
+    h4 {
+        font-size: 18px;
+
+        @include media-query($on-laptop) {
+            font-size: 16px;
+        }
+    }
 }
 
 .profile-picture {
-    float: left;
-    margin-right: $spacing-unit;
+    float: right;
+    margin-left: $spacing-unit;
+    margin-right: 0;
     margin-bottom: $spacing-unit;
     max-width: 35%;
-    border: 6px solid #ddd;
+    border: 6px solid $grey-color-light;
     border-radius: 6px;
     box-sizing: border-box;
 
