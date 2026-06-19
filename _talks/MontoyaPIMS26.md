@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mass-conservative adaptive high-order methods for the Richards equation
+title: Mass-Conservative Adaptive High-Order Methods for the Richards Equation
 publication: PIMS Research Workshop on Structure-Preserving Discretizations and their Applications
 location: Regina, Canada
 year: 2026
