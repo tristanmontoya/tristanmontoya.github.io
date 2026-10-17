@@ -253,23 +253,102 @@
     }
 }
 
-.profile-picture {
+/**
+ * Research and software profile links
+ */
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+    padding: 6px;
+}
+
+.profile-link {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: transparent;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+    }
+
+    &:hover,
+    &:focus-visible {
+        color: $link-hover-color;
+        border-color: $link-hover-color;
+        background-color: #faf7f2;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $link-color;
+        outline-offset: 3px;
+    }
+
+    &:hover .profile-link-label,
+    &:focus-visible .profile-link-label {
+        visibility: visible;
+    }
+}
+
+.profile-link-label {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: $text-color;
+    color: $background-color;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.home-content {
+    display: flow-root;
+    font-size: 16px;
+}
+
+.profile-block {
     float: right;
+    width: 35%;
     margin-left: $spacing-unit;
     margin-right: 0;
     margin-bottom: $spacing-unit;
-    max-width: 35%;
-    border: 6px solid $grey-color-light;
-    border-radius: 6px;
-    box-sizing: border-box;
 
     @include media-query($on-palm) {
-        display: block;
         float: none;
-        max-width: 100%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.profile-card {
+    width: 220px;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 6px solid $grey-color-light;
+    border-radius: 6px;
+    background-color: $background-color;
+    box-sizing: border-box;
+}
+
+.profile-picture {
+    display: block;
+    width: 100%;
 }
 
 ul.publications {
